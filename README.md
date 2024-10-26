@@ -7,5 +7,8 @@
 • Рекомендуемая длина прогрессии – 10 чисел. Длина может генерироваться случайным образом, но должна содержать не менее 5 чисел 
 • Позиция спрятанного элемента каждый раз изменяется (выбирается случайным образом)
 
+## Демо-версия
+<a href="https://asciinema.org/a/mBpz0Kr3dWNwTfJy2odwqy6a5" target="_blank"><img src="https://asciinema.org/a/mBpz0Kr3dWNwTfJy2odwqy6a5.svg" /></a>
+
 [![Maintainability](https://api.codeclimate.com/v1/badges/e8cde2ba1c2fb7f09927/maintainability)](https://codeclimate.com/github/sveta2111718/MRPO_LR/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/e8cde2ba1c2fb7f09927/test_coverage)](https://codeclimate.com/github/sveta2111718/MRPO_LR/test_coverage)
