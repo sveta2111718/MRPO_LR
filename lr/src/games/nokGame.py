@@ -1,18 +1,18 @@
 import random
 import math
 
-GAME_DESCRIPTION = "Find the smallest common multiple of given numbers."
+TASK = "Find the smallest common multiple of given numbers."
 
-def lcm(a, b):
+def nok2(a, b):
     return abs(a * b) // math.gcd(a, b)
 
-def lcm_of_three(a, b, c):
-    return lcm(lcm(a, b), c)
+def nok3(a, b, c):
+    return nok2(nok2(a, b), c)
 
-def get_question_and_answer():
-    numbers = [random.randint(1, 100) for _ in range(3)]
+def game():
+    numbers = [random.randint(1, 100) for i in range(3)]
 
-    correct_answer = lcm_of_three(*numbers)
+    correct_answer = nok3(*numbers)
 
     question = f"{numbers[0]} {numbers[1]} {numbers[2]}"
     
